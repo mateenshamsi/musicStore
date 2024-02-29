@@ -1,9 +1,9 @@
 "use client";
 import { Meteors } from "@/components/ui/meteors";
-import React, { FormEvent } from "react";
-import { useState } from "react";
+import React, { FormEvent ,useState} from "react";
 
-function page() {
+
+function MusicSchoolContactUs() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const submitForm = (e: FormEvent<HTMLFormElement>) => {
@@ -51,4 +51,4 @@ function page() {
   );
 }
 
-export default page;
+export default MusicSchoolContactUs;
