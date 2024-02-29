@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
-import { WavyBackground } from './wavy-background'
-import { AnimatedTooltip } from './animated-tooltip';
+import { WavyBackground } from './ui/wavy-background'
+import { AnimatedTooltip } from './ui/animated-tooltip';
 
 function Instructor() {
     const instructors = [
@@ -40,7 +40,7 @@ function Instructor() {
         <h2 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold text-center mb-8">Meet Our Instructors</h2>
         <p className="text-base md:text-lg text-white text-center mb-4">Discover the talented professionals who will guide your musical journey</p>
    
-    <div> 
+    <div className='flex flex-row mx-2 gap-8 '> 
         <AnimatedTooltip items={instructors}/>
     </div>
     </WavyBackground>

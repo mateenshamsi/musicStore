@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
-import { Spotlight } from './Spotlight'
-import { Button } from './moving-border'
+import { Spotlight } from './ui/Spotlight'
+import { Button } from './ui/moving-border'
 function HeroSection() {
   return (
     <div className="p-4 mt-20 relative z-10 w-full text-center" >

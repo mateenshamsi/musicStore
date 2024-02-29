@@ -1,5 +1,5 @@
 import React from 'react'
-import { StickyScroll } from './sticky-scroll-reveal'
+import { StickyScroll } from './ui/sticky-scroll-reveal'
 const content = [ {
     title: "Guitar Fundamentals",
     description: "Learn the basics of playing guitar with our comprehensive beginner's course.",

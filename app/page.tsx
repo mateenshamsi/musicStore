@@ -1,11 +1,11 @@
-import FeaturedCourses from "@/components/ui/FeaturedCourses";
-import HeroSection from "@/components/ui/HeroSection";
-import TestimonialCards from "@/components/ui/TestimonialCards";
-import WhyChooseUs from "@/components/ui/WhyChooseUs";
+import FeaturedCourses from "@/components/FeaturedCourses";
+import HeroSection from "@/components/HeroSection";
+import TestimonialCards from "@/components/TestimonialCards";
+import WhyChooseUs from "@/components/WhyChooseUs";
 import Image from "next/image";
 import UpcomingWebinars from "@/components/ui/UpcomingWebinars";
-import Instructor from "@/components/ui/Instructor";
-
+import Instructor from "@/components/Instructor";
+import Footer from '@/components/Footer'
 export default function Home() {
   return (
     <>
@@ -15,6 +15,7 @@ export default function Home() {
     <TestimonialCards/>
     <UpcomingWebinars/>
     <Instructor/>
+    <Footer/> 
     </>
     );
 }

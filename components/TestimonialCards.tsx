@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import { InfiniteMovingCards } from './infinite-moving-cards'
+import { InfiniteMovingCards } from './ui/infinite-moving-cards'
 const testimonials = [
     {
       quote:
